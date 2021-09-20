@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+    background: url(image/background.png);
+    margin: 0; /* Убираем отступы */
+    height: 100%; /* Высота страницы */
+    background-size: cover; /* Фон занимает всю доступную площадь */
+}
+
+p.name {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 170px;
+    margin-bottom: -285px;
+    top: 50%;
+    height: 580px;
+    text-shadow: 0 25px 23px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+p.lang {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-bottom: 250px;
+}
+p.contacts {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+p.mnqn{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: -70px;
+}
+p.quo {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: -175px;
+}
